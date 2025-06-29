@@ -34,6 +34,20 @@ body {
     background-color: #EAE4D5;
 }
 
+#quote,#author {
+    transition: all 0.2s;
+}
+
+#quote:hover,#author:hover {
+    transform: scale(103%);
+    color: #B6B09F;
+}
+
+#quote::selection,#author::selection {
+    background-color: #EAE4D5;
+    color: #000000;
+}
+
 
 @media (max-width: 1536px) {
     .quote-container {
