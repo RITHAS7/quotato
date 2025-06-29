@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    margin-top: 10vh;
+    margin: 0 auto;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2;
+}
+
+#generate {
+    width: 50%;
+    align-self: center;
+    background-color: #B6B09F;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    padding: 1.5em;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#generate:hover {
+    transform: scale(105%);
+    background-color: #EAE4D5;
+}
+
+
+@media (max-width: 1536px) {
+    .quote-container {
+        max-width: 1280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .quote-container {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .quote-container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .quote-container {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .quote-container {
+        max-width: 475px;
+    }
+}
+
+@media (max-width: 475px) {
+    .quote-container {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .quote-container {
+        max-width: 100%;
+    }
+}
